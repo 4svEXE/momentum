@@ -1,0 +1,326 @@
+*{
+	box-sizing: border-box;
+	outline: none; border: none;
+	text-decoration: none;
+}
+body{
+	margin: 0;
+	font-family: Arial, cursive;
+	position: relative;z-index: -5;
+}
+.wrapper{
+	width: 100%;min-height: 100vh;
+	position: relative;z-index: -4;
+}
+#up{
+	position: fixed;
+	bottom: 50px;right: 50px;
+	width: 40px;height: 40px;
+	text-align: center;padding: 10px;
+	background-color: #FC0A7E;
+	color: #fff;
+	border-radius: 50%;
+	transition: .3s;
+}
+#up:hover{
+	background-color: #FC1A6E;
+}
+.first-screen-bg{
+	width: 100%;position: relative;
+	background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+	padding: 0 144px;
+	z-index: -2;
+}
+header{
+	width: 100%;height: 100px;
+	padding: 0 29px;
+	justify-content: space-between !important;
+}
+.logo{
+	width: 120px;
+}
+.naw-bar a{
+	color: #fff;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 20px;
+	transition: .3s;
+}
+.naw-bar a:hover{
+	background-color: #FC0A7E;
+	padding: 15px;
+}
+
+.get-the-app{
+	align-items: flex-start !important;
+	margin-top: 198px;
+	color: #fff;
+	cursor: default;
+}
+h3{
+	font-size: 80px;
+	line-height: 80px;
+	margin: 0;
+}
+.get-the-app span{
+	margin: 10px 0 25px 0;
+	font-size: 30px;
+	line-height: 44px;
+}
+.get-button{
+	color: #fff;
+	padding: 20px 40px;margin-rightt: 10px;
+	background-color: #FC0A7E;
+	border: 1px solid rgba(0, 0, 0, 0);
+	transition: .3s;
+}
+.get-button:hover{
+	color: #fff;
+	background-color: inherit;
+	border: 1px solid #B04BB3;
+}
+
+.imgs{
+	width: 100%;
+	margin-top: 207px;
+	margin-bottom: 30px;
+}
+.get-the-app img:nth-child(1){
+	height: 40px;
+	margin-bottom: 30px;
+}
+.get-the-app img:nth-child(2){
+	position: absolute;
+	width: 625px;
+	right: 44px;top: 120px;
+	z-index: -1;
+}
+
+.app_screen-shot{
+	padding-top: 80px;
+	justify-content: flex-start !important;
+	background-color: #101010;
+	color: #fff;text-align: center;
+}
+.app_screen-shot span{
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.app_screen-shot h4{
+	font-size: 38px;
+	line-height: 48px;
+	padding-bottom: 55px;
+	margin-bottom: 0;
+}
+
+.app-phone-screen{
+	background-color: #fff;
+	padding-top: 80px;
+}
+.app-phone-screen .col{
+	max-width: 450px;
+	align-items: flex-start;
+	margin-left: 60px;
+}
+.app-phone-screen span{
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #A8A8A8;
+	margin: 0;
+}
+.app-phone-screen h4{
+	font-size: 38px;
+	line-height: 48px;
+	color: #000000;
+	margin: 22px 0;
+}
+.app-phone-screen p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #6B6B6B;
+	margin: 0;
+}
+.app-phone-screen img{
+	margin-right: 60px;
+}
+
+.app-dignity{
+	text-align: center;
+	margin-top: 160px;
+}
+.app-dignity .col{
+	width: 30%;
+	padding: 30px;
+}
+.app-dignity span{
+	margin-top: 40px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+}
+.app-dignity p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #6B6B6B;
+}
+
+.app-numbers{
+	color: #000;
+	margin-top: 160px;
+	margin-bottom: 204px;
+}
+.app-numbers .col{
+	padding: 0 98px;
+}
+.app-numbers h5{
+	font-size: 59px;
+	line-height: 90px;
+	margin: 0;
+}
+.app-numbers span{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.personal-quote{
+	margin-top: 160px;
+	padding-bottom: 80px;
+}
+.personal-quote p{
+	max-width: 700px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.personal-quote .flex{
+	font-size: 24px;
+	line-height: 40px;
+	text-align: center;
+	color: #6B6B6B;
+}
+.personal-quote .flex span{
+	font-size: 16px;
+	line-height: 30px;
+	color: #6B6B6B;
+	margin: 10px 45px;
+}
+.personal-quote .flex span:nth-child(2){
+	font-weight: bold;
+}
+
+.personal-quote-nav{
+	margin-top: 70px;
+}
+.personal-quote-nav input{
+	width: 12px !important;height: 12px !important;
+	background: rgba(34, 34, 34, 0.4);
+	margin: 0 8px;cursor: pointer;
+	transition: .3s;
+}
+.personal-quote-nav input:hover{
+	background: #555;
+}
+.personal-quote-nav input.active{
+	background: #222;
+}
+
+.app-partners{
+	margin-bottom: 120px;
+}
+
+.app-last-screen-bg{
+	max-height: 520px;
+}
+
+.get-started{
+	height: 475px;
+	background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+}
+.get-started span{
+	font-size: 38px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.get-started .get-button{
+	margin: 5px;
+}
+.get-button.active{
+	color: #ccc;
+	background-color: inherit;
+	border: 1px solid #B04BB3;
+}
+.get-button.active:hover{
+	border: 1px solid #704BB3;
+}
+
+.app-get-updates{
+	padding: 130px;
+	background-color: #000;
+}
+.app-get-updates h4{
+	font-size: 38px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0;
+}
+.app-get-updates span{
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	color: #6B6B6B;
+	margin: 25px;
+}
+.app-get-updates .flex{
+	width: 475px;
+}
+.app-get-updates .flex input{
+	width: 70%;
+	height: 70px;
+	padding: 10px;
+}
+.app-get-updates .flex input:nth-child(2){
+	width: 30%;
+	background: #FC0A7E;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background-color: #000;
+}
+
+footer a{
+	padding: 15px 30px;
+	transition: .3s;
+	color: #6B6B6B;
+}
+footer a:hover{
+	color: #fff;
+}
+
+@media screen and (max-width: 1440px){
+	.get-the-app span{
+		background-color: rgba(0, 0, 0, .5);
+	}
+	.app-numbers{
+		margin-top: 100px;
+	}
+	.app-numbers .col{
+		padding: 0 50px;
+	}
+}
+..app-last-screen-bg{
+	height: auto;
+}
+.app-partners img,
+.app_screen-shot img,
+.app-last-screen-bg img{
+	width:100%;
+}

@@ -1,0 +1,25 @@
+/*   mini bootstrap   */
+.flex{
+	display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.col{
+  display: flex;
+  flex-direction: column
+}
+/*   mini bootstrap   */
+
+/*fonts*/
+
+@font-face {
+  font-family: "Montserrat"; 
+  src: url("fonts/Montserrat-VariableFont_wght.ttf"); 
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+/*fonts*/
